@@ -1,0 +1,62 @@
+#education {
+    width: 75%;
+    height: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 3rem;
+}
+
+.job,
+.income {
+    margin-top: 0.5rem;
+}
+
+#occupation {
+    width: 75%;
+    height: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 2.6rem;
+}
+
+#income {
+    width: 75%;
+    height: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 8.9rem;
+    margin-top: 0.5rem;
+}
+
+#jobLoc {
+    width: 75%;
+    height: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 8.9rem;
+    margin-top: 0.5rem;
+}
+
+@media only screen and (max-width:650px){
+    #education{
+        width: 71%;
+    }
+    #occupation{
+        width: 71%;
+    }
+    #jobLoc,#income{
+        width: 71%;
+    }
+}

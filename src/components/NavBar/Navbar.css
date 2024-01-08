@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.95rem;
+}
+
+.navMain {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A80228;
+}
+
+.logo {
+    font-size: 1.2rem;
+    z-index: 15;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 5rem;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.navSub {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    margin-right: 5%;
+}
+
+#login {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#login:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#lang {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+
+#lang #icon {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 30;
+    width: 100px;
+    height: fit-content;
+    color: black;
+}
+
+#lang:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:7%;
+    gap:0.5rem;
+}
+
+#english-div,#marathi-div{
+    height: auto;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+#english-div:hover,#marathi-div:hover{
+    background-color: #A80228;
+    color: #fff;
+}
+#english,#marathi{
+    text-align: center;
+    font-size: 0.8rem;
+}

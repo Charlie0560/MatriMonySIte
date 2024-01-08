@@ -1,0 +1,19 @@
+.about-div{
+    display: flex;
+    
+    align-items: center;
+    
+}
+.about-content{
+    width: 500px;
+    background-color: #fff;
+    padding: 1rem;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(219, 98, 98, 0.1);
+}
+
+#about-img{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}

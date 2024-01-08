@@ -1,0 +1,38 @@
+#email {
+    width: 80%;
+    height: 1.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 2.5rem;
+}
+
+
+
+#contactField {
+    margin-top: 0.5rem;
+}
+
+#contact {
+    width: 80%;
+    height: 1.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 1.5rem;
+}
+
+#password {
+    width: 80%;
+    height: 1.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 0.3rem;
+}

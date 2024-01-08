@@ -1,0 +1,125 @@
+p {
+    font-size: 1.3rem;
+    color: #A80228;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #A80228;
+    font-weight: 600;
+}
+
+#fname,
+#mname,
+#lname {
+    width: 75%;
+    height: 1.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 8rem;
+    margin-bottom: 0.5rem;
+}
+
+#fname {
+    margin-left: 4.5rem;
+}
+
+#genderContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+#genderMale,
+#genderFemale {
+    border: 0px;
+    width: 1rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 4.3rem;
+}
+
+#genderContainer .glabel {
+    color: rgb(52, 50, 50);
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+#dateContainer {
+    margin-top: 0.5rem;
+}
+
+#date {
+    width: 75%;
+    height: 1.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: grey;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 0.7rem;
+}
+
+#profile {
+    margin-top: 0.5rem;
+}
+
+#profilePic {
+    height: 1.8rem;
+    font-size: 1rem;
+    color: black;
+    margin-left: 0.7rem;
+}
+
+#content button {
+    background-color: #A80228;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#content button:hover {
+    background-color: #82001C;
+}
+
+@media only screen and (max-width:650px) {
+
+    #fname,
+    #mname,
+    #lname {
+        width: 73%;
+        height: 1.8rem;
+        padding: 1rem;
+        font-size: 1rem;
+        color: black;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-left: 8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #fname {
+        margin-left: 4.5rem;
+    }
+        #date {
+            width: 73%;
+            height: 1.8rem;
+            padding: 1rem;
+            font-size: 1rem;
+            color: grey;
+            border-radius: 5px;
+            border: 1px solid grey;
+            margin-left: 0.7rem;
+        }
+}

@@ -1,0 +1,58 @@
+#father,
+#mother,
+#father-job,
+#mother-job,
+#father-mob,
+#mother-mob {
+    width: 75%;
+    height: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+#mother,
+#father-job,
+#mother-job,
+#father-mob,
+#mother-mob {
+    margin-left: 8.9rem;
+}
+
+#maternal-uncle,
+#maternal-uncle-place,
+#maternal-uncle-mob {
+    width: 75%;
+    height: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 0.1rem;
+    margin-top: 0.5rem;
+}
+
+#maternal-uncle-place,
+#maternal-uncle-mob {
+    margin-left: 8.9rem;
+}
+
+@media only screen and (max-width:650px) {
+
+    #father,
+    #mother,
+    #father-job,
+    #mother-job,
+    #father-mob,
+    #mother-mob,
+    #maternal-uncle,
+    #maternal-uncle-place,
+    #maternal-uncle-mob {
+        width: 71%;
+    }
+}

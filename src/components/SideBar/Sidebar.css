@@ -1,0 +1,63 @@
+.sidebar {
+    flex: 2;
+    padding: 10px;
+}
+
+.your-matches {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+    background-color: #A80228;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.your-matches span {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.chat-icon{
+    color: white;
+    font-weight: 400;
+}
+
+
+#latest-message {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.userChat {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f1e4e4;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.userChat:hover {
+    background-color: #cd0735;
+    color: white;
+
+    #latest-message {
+        color: white;
+    }
+}
+
+.profile-image-chat {
+    background-color: #f1e4e4;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

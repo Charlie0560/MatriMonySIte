@@ -1,0 +1,28 @@
+.chat {
+    flex: 4;
+    background-image: url("../../images//deltabackground.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.chatInfo {
+    height: auto;
+    background-color: #A80228;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    color: lightgray;
+
+    span {
+        text-transform: capitalize;
+    }
+
+    img {
+        background-color: #A80228;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}

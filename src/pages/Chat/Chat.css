@@ -1,0 +1,15 @@
+#chat-wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.chat-container {
+    border: 1px solid #a7bcff;
+    border-radius: 10px;
+    width: 92%;
+    height: 85vh;
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+}

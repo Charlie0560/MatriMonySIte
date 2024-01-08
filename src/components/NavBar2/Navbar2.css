@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    background-color: #A80228;
+}
+
+.logo {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 5rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.navSide {
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+}
+
+#userImage {
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.nav-home:hover,.nav-search:hover,.nav-msg:hover,.nav-contact:hover{
+    cursor:pointer
+}
+
+#userImage:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,117 @@
+label{
+    font-size: 1.1rem;
+}
+#placeOfOrigin {
+    width: 68%;
+    height: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 4.9rem;
+}
+
+#birthTime {
+    padding: 1rem;
+    width: 30%;
+    height: 1.8rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 4.9rem;
+}
+
+select option {
+    color: black;
+}
+
+.details,
+.address {
+    margin-top: 0.5rem;
+}
+
+#weight {
+    width: 30%;
+    height: 1.8rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 7rem;
+    padding: 1rem;
+}
+
+#height {
+    width: 30%;
+    height: 1.8rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 7.2rem;
+    padding: 1rem;
+}
+
+#addressC {
+    width: 68%;
+    height: 1.8rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 2.1rem;
+    padding: 1rem;
+}
+
+#addressP {
+    width: 68%;
+    height: 1.8rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 0.3rem;
+    padding: 1rem;
+}
+
+#complexion {
+    width: 68%;
+    height: 1.8rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 4.4rem;
+    padding: 1rem;
+
+}
+
+#bloodgroup,
+#status {
+    width: 12.5%;
+    height: 2rem;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+#bloodgroup{
+    margin-left: 3.7rem;
+}
+#status{
+    margin-left: 1rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media only screen and (max-width:650px){
+    #placeOfOrigin,#addressC,#addressP,#complexion{
+        width: 63%;
+    }
+}
