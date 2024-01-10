@@ -6,13 +6,13 @@
     color: black;
     border-radius: 5px;
     border: 1px solid grey;
-    margin-left: 2.5rem;
+    margin-left: auto;
 }
 
 
 
 #contactField {
-    margin-top: 0.5rem;
+    margin-top: auto;
 }
 
 #contact {
@@ -23,7 +23,7 @@
     color: black;
     border-radius: 5px;
     border: 1px solid grey;
-    margin-left: 1.5rem;
+    margin-left: auto;
 }
 
 #password {
@@ -34,5 +34,35 @@
     color: black;
     border-radius: 5px;
     border: 1px solid grey;
-    margin-left: 0.3rem;
+    margin-left: auto;
+}
+
+.regdiv{
+    display: flex;
+    flex-direction: column;
+row-gap: 5px;
+}
+
+#emailField,
+#contactField,
+#contactField{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+@media (max-width:600px) {
+    #emailField,
+#contactField,
+#contactField{
+flex-direction: column;
+margin-left: 0;
+}
+#email,
+#contact,
+#password{
+    margin-left: 0;
+    width: 100%;
+}
 }

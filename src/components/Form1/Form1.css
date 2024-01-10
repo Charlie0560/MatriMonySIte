@@ -22,18 +22,16 @@ label {
     color: black;
     border-radius: 5px;
     border: 1px solid grey;
-    margin-left: 8rem;
+    margin-left: 6%;
     margin-bottom: 0.5rem;
 }
 
-#fname {
-    margin-left: 4.5rem;
-}
 
 #genderContainer {
     display: flex;
     align-items: center;
-    margin-top: 0.5rem;
+    margin-top: 1%;
+
 }
 
 #genderMale,
@@ -41,19 +39,23 @@ label {
     border: 0px;
     width: 1rem;
     height: 2rem;
-    margin-right: 0.5rem;
-    margin-left: 4.3rem;
+}
+
+.gendiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
 }
 
 #genderContainer .glabel {
     color: rgb(52, 50, 50);
     font-weight: 100;
     font-size: 1.2rem;
+    margin-left: 5px;
 }
 
-#dateContainer {
-    margin-top: 0.5rem;
-}
+
 
 #date {
     width: 75%;
@@ -93,33 +95,31 @@ label {
     background-color: #82001C;
 }
 
-@media only screen and (max-width:650px) {
-
-    #fname,
-    #mname,
-    #lname {
-        width: 73%;
-        height: 1.8rem;
-        padding: 1rem;
-        font-size: 1rem;
-        color: black;
-        border-radius: 5px;
-        border: 1px solid grey;
-        margin-left: 8rem;
-        margin-bottom: 0.5rem;
+@media (max-width:600px) {
+    #fname{
+        margin-left: 0;
+        width: 100%;
+        margin-top: 5px;
     }
-
-    #fname {
-        margin-left: 4.5rem;
+    .fullname input{
+        width: 100%;
     }
-        #date {
-            width: 73%;
-            height: 1.8rem;
-            padding: 1rem;
-            font-size: 1rem;
-            color: grey;
-            border-radius: 5px;
-            border: 1px solid grey;
-            margin-left: 0.7rem;
-        }
+    #genderContainer{
+    justify-content: space-between;
+    margin-top: 5%;
+
+    }
+    #dateContainer input{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .glabel{
+        width: 100%;
+        padding-right: 25px;
+    }
+    #genderContainer label{
+        width: max-content;
+        padding-right: 10px;
+    }
 }

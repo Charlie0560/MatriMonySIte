@@ -48,7 +48,7 @@ function CreateProfile() {
   return (
     <div id="wrapper">
       <Navbar isRegistered={isRegistered} />
-      <form id="content">
+      <form id="content" class="signup">
         {renderCurrentForm()}
       </form>
       <img id="backgroundImage" src={backgroundImage} alt="Background" />

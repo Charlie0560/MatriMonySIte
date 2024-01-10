@@ -27,16 +27,8 @@ function Navbar({ isRegistered }) {
             <div id="login" onClick={toggleLoginForm}>Login
               {showLoginForm && <Login onClose={toggleLoginForm} />}
           </div>
-            <div id="lang" onClick={toggleDropdown}>
-            <span>Language</span>
-            <FontAwesomeIcon id="icon" icon={faCaretDown} />
-              {showDropdown && (
-                <div className="dropdown-content">
-                  <div id="english-div"><span id="english">English</span></div>
-                  <div id="marathi-div"><span id="marathi">Marathi</span></div>
-                </div>
-              )}
-          </div>
+          
+          
         </div>
       
     </div>

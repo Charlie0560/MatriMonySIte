@@ -4,15 +4,15 @@
 #mother-job,
 #father-mob,
 #mother-mob {
-    width: 75%;
-    height: 1.7rem;
-    padding: 1rem;
-    font-size: 1rem;
-    color: black;
-    border-radius: 5px;
-    border: 1px solid grey;
-    margin-left: 0.3rem;
-    margin-top: 0.5rem;
+  width: 75%;
+  height: 1.7rem;
+  padding: 1rem;
+  font-size: 1rem;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
 }
 
 #mother,
@@ -20,39 +20,50 @@
 #mother-job,
 #father-mob,
 #mother-mob {
-    margin-left: 8.9rem;
+  margin-left: 8.9rem;
 }
 
 #maternal-uncle,
 #maternal-uncle-place,
 #maternal-uncle-mob {
-    width: 75%;
-    height: 1.7rem;
-    padding: 1rem;
-    font-size: 1rem;
-    color: black;
-    border-radius: 5px;
-    border: 1px solid grey;
-    margin-left: 0.1rem;
-    margin-top: 0.5rem;
+  width: 75%;
+  height: 1.7rem;
+  padding: 1rem;
+  font-size: 1rem;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-left: 0.1rem;
+  margin-top: 0.5rem;
 }
 
 #maternal-uncle-place,
 #maternal-uncle-mob {
-    margin-left: 8.9rem;
+  margin-left: 8.9rem;
 }
 
-@media only screen and (max-width:650px) {
+@media only screen and (max-width: 650px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
 
-    #father,
-    #mother,
-    #father-job,
-    #mother-job,
-    #father-mob,
-    #mother-mob,
-    #maternal-uncle,
-    #maternal-uncle-place,
-    #maternal-uncle-mob {
-        width: 71%;
-    }
+  .parent label {
+    margin-bottom: 10px;
+  }
+  #father,
+  #mother,
+  #father-job,
+  #mother-job,
+  #father-mob,
+  #mother-mob,
+  #maternal-uncle-place,
+  #maternal-uncle-mob,
+  #maternal-uncle {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 0;
+  }
 }

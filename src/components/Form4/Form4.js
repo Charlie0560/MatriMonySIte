@@ -10,9 +10,9 @@ export default function Form4({onContinue,onBack}) {
               <input type="text" id="father" placeholder="Father Name" /><br />
               <input type="text" id="father-job" placeholder="Father Ocuupation" /><br />
               <input type="number" id="father-mob" placeholder="Father Mobile No" /><br />
-              <input type="text" id="mother" placeholder="Mother Name" /><br />
+              {/* <input type="text" id="mother" placeholder="Mother Name" /><br />
               <input type="text" id="mother-job" placeholder="Mother Ocuupation" /><br />
-              <input type="number" id="mother-mob" placeholder="Mother Mobile No" /><br />
+              <input type="number" id="mother-mob" placeholder="Mother Mobile No" /><br /> */}
           </div>
           <div className="parent">
               <label for="name">Maternal Uncle:</label>
